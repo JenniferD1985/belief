@@ -44,7 +44,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-
+P > 0.05 -> reject Ho
 
     
 # Your second Question  
@@ -56,6 +56,8 @@ Graphical display
 ```{r}
 barchartGC(~sex + extra_life,mydata, xlab = "sex")
 ```
+$H_O$:no difference
+
 Numerical summary
 
 
@@ -72,7 +74,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-
+P>0.05 -> reject Ho
  
  
 # Your last Question   
@@ -84,6 +86,8 @@ Graphical
 ```{r}
 barchartGC(~sex + love_first ,mydata, xlab = "sex")
 ```
+
+$H_O$: There is no differnece
 
 Numerical
 
@@ -100,7 +104,7 @@ chisq.test(table1)
 chisqtestGC(table1)
 fisher.test(table1)
 ```
-
+P> 0.05 -> reject Ho
 
 
 
